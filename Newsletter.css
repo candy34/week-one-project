@@ -1,0 +1,207 @@
+/* Use the following colors for your layout:
+Background: #F2F1E8
+Text: #131511
+Inline Link: #968772
+Inline Link (Hover): #967343
+Navigation Background: #FFFFFF
+Navigation Text: #2B2F26
+Navigation Text (Hover): #CD5D67
+Navigation Text (Active) #968772
+Button Background: #968772
+Button Background (Hover): #967343
+Button Text: #F2F1E8
+Button Text (Hover): #FFFFFF
+Input Border Bottom: #968772
+Input Border Bottom (Focus): #967343 
+Fonts Lora|Roboto
+*/
+
+body{
+    font-family: 'Lora', serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: bold;
+    margin: auto;
+    background-color: #F2F1E8;
+}
+.logo{
+    background-image: url(./images/bent-creek-logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* width: 25%;
+    height: 50%; */
+    flex-grow: 1;
+    padding: 0px 2px 4px;
+}
+ 
+#site-header{
+    display: flex;
+    background: #ffffff;
+    color: #2B2F26; 
+    /* justify-content: center;  */
+    /* align-content: space-between; */
+    height: 50px;
+    
+  
+}
+#Home{
+    display: flex;
+    /* flex-direction:row; */
+    justify-content:space-around;
+    /* align-content: left; */
+    padding: 0px 100px 200px;
+    flex-grow: 6; 
+
+
+}
+ /* .flex-container{
+    display: flex;
+    flex-direction: row; 
+    align-items: space-around;   
+    /* flex-flow: row wrap;    */
+       
+     /* width:100px;  */
+    /* margin-top: auto;
+    margin-bottom: auto; */ 
+    
+
+.header{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    align-content: space-around;   
+    
+}
+h1{
+    font-size: 55px;
+}
+ h1, h2, h3{
+    font-family: "Lora", 'Roboto';
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: bold;
+    
+ }
+.row1{
+    display:flex;
+    /* flex-wrap: wrap; */
+    /* flex-direction: row; */
+    /* text-align: left; */
+    /* justify-content: flex-end;
+    align-items: flex-start; */
+    /* max-width: 100%;
+    height: 50px;  */
+    color: black;
+    
+   
+}
+
+.row1{
+    margin-bottom: 10px;
+    margin-left: 40px;
+    height: 300px;
+    width: 1000px;
+    background-size: contain;
+    display:inline-flex;
+
+
+
+}
+.background-2{
+    background-image: url(./images/background-2.jpg);
+    color: white;
+    flex-grow: 1; 
+    background-repeat: no-repeat;
+    margin-right: 5px;
+    
+}
+form{
+    background: white;
+    padding: 100px;
+    border-radius: 5px;
+    box-shadow: 0 5px 8px white( 0, 0, 0, 0.4 );
+    text-align: center;
+    width: 300px;
+    margin: 0 auto;
+  
+    
+}
+.submit_container{
+    border-inline-end-color: tan;
+   
+}
+/* 
+#site-header div h1,
+#site-header div h3{
+     margin: 0;
+    line-height: 1;
+    position: center;
+    color:#333; 
+    
+    
+}
+#site-header div h1{
+    top: 20px;
+    
+}
+#site-header div h3{
+    color: white;
+    bottom: 20px;
+    text-shadow: 0 5px 8px rgba( 0, 0, 0, 0.3 );
+    font-family: "lora",'Roboto'; */
+/*     
+
+#main-navigation{
+    background: #ffffff;
+    display: flex; 
+    color: #2B2F26;
+   
+   
+    
+}
+#main-navigation a{
+   color: white;
+   background: #2B2F26;
+   
+   
+   
+ 
+  
+}
+#main-navigation #logo{
+    margin-right: 400px;
+    flex: 1; */
+   
+   
+    
+
+/* main{
+    /* padding: 20px; 
+    background-color: #444; */
+    /* box-shadow: -5px 5px 8px rgba( 0, 0, 0, 0.3 ); */
+    /* display: flex;
+    flex-wrap: wrap;  */
+    /* flex-basis:40%; */
+    /* position: relative;  */ 
+    
+    
+ .floating-box{
+    display: inline-block;
+    width: 150px;
+    height: 75px;
+    margin: 10px; 
+    padding: 20px;
+ }
+.home-images{
+    padding: 0px 40px 40px 40px;
+    
+}
+
+#site-footer{
+    
+    background: #333;
+    color: white; 
+    display:flex;
+    justify-content: left; 
+    height: 75px; 
+     
+}
